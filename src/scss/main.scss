@@ -3,7 +3,7 @@
 @import "./dropdown";
 
 // 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
-@import "../node_modules/bootstrap/scss/functions";
+@import "./node_modules/bootstrap/scss/functions";
 
 // Include any default variable overrides here
 
@@ -11,19 +11,12 @@ $primary: #ff6058;
 
 $light: #f9f9f9;
 
-$bootstrap-icons-font-dir: "../node_modules/bootstrap-icons/font/fonts";
+// $bootstrap-icons-font-dir: "../../node_modules/bootstrap-icons/font/fonts";
 
-@import "../node_modules/bootstrap/scss/bootstrap";
+@import "./node_modules/bootstrap/scss/bootstrap";
 
-// Import the font-awesome icons
-$fa-font-path : "../node_modules/@fortawesome/fontawesome-free/webfonts";
+@import 'bootstrap-icons/font/bootstrap-icons.css';
 
-@import "../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss";
-@import "../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss";
-@import "../node_modules/@fortawesome/fontawesome-free/scss/solid.scss";
-@import "../node_modules/@fortawesome/fontawesome-free/scss/brands.scss";
-// Bootstrap -icons
-@import "../node_modules/bootstrap-icons/font/bootstrap-icons.scss";
 
 // Then add additional custom code here
 
