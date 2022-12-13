@@ -5,7 +5,9 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Blog</title>
+  <title>
+    <%= htmlWebpackPlugin.options.title %>
+  </title>
 
 
 </head>
@@ -13,20 +15,27 @@
 <body>
   <header>
 
-    <nav class="navbar fixed-top navbar-expand-lg navbar-white p-md-3 bg-white">
+    <nav class="navbar fixed-top navbar-expand-lg  navbar-light bg-light">
       <div class="container">
-        <a class="navbar-brand" href="#"><img src="./assets/img/logo.png" alt="Logo"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        <a class="navbar-brand" href="#">
+
+
+            
+            <img src='<%=require("./assets/img/logo-ag-sm.jpg")%>' alt="Logo">
+
+
+        </a>
+        <button class="navbar-toggler text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon text-dark"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarNav">
           <!-- <div class="mx-auto"></div> -->
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <ul class="navbar-nav me-auto">
 
-            <li class="nav-item dropdown" id="managemenr-service-dropdown">
-              <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">
+            <li class="nav-item dropdown " id="managemenr-service-dropdown">
+              <a class="nav-link dropdown-toggle link-dark" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">
                 Management Services </a>
               <ul class="dropdown-menu">
                 <li> <a class="dropdown-item" href="#"> Infrastructure Management</a></li>
@@ -46,7 +55,7 @@
             </li>
 
             <li class="nav-item dropdown" id="cloud-services-dropdown">
-              <a class="nav-link dropdown-toggle" data-bs-auto-close="outside" href="#" data-bs-toggle="dropdown">
+              <a class="nav-link dropdown-toggle link-dark" data-bs-auto-close="outside" href="#" data-bs-toggle="dropdown">
                 Cloud
                 Services </a>
               <ul class="dropdown-menu">
@@ -63,7 +72,7 @@
             </li>
 
             <li class="nav-item dropdown" id="support-services-dropdown">
-              <a class="nav-link dropdown-toggle" data-bs-auto-close="outside" href="#" data-bs-toggle="dropdown">
+              <a class="nav-link dropdown-toggle link-dark" data-bs-auto-close="outside" href="#" data-bs-toggle="dropdown">
                 Support Services </a>
               <ul class="dropdown-menu">
                 <li> <a class="dropdown-item" href="#"> Linux Security </a></li>
@@ -73,8 +82,8 @@
                 <li> <a class="dropdown-item" href="#"> Project Management </a></li>
               </ul>
             </li>
-            <li class="nav-item"><a href="" class="nav-link">Enterprise</a></li>
-            <li class="nav-item text-nowrap"><a href="" class="nav-link">About Us</a></li>
+            <li class="nav-item"><a href="" class="nav-link link-dark">Enterprise</a></li>
+            <li class="nav-item text-nowrap"><a href="" class="nav-link link-dark">About Us</a></li>
 
           </ul>
 
@@ -82,8 +91,8 @@
           <div
             class="ms-lg-1 gap-2 d-flex flex-column flex-lg-row align-items-start align-items-lg-center justify-content-start justify-content-lg-center text-nowrap"
             role="search">
-            <div><a href="">Sign In</a></div>
-            <button class="btn btn-primary" type="button">Contact Us</button>
+            <div><a class="text-muted" href="">Sign In</a></div>
+            <button class="btn btn-warning" type="button">Contact Us</button>
             </form>
           </div>
         </div>
@@ -336,7 +345,7 @@
                 <div class="carousel-item active">
 
 
-                  <div class="card bg-success">
+                  <div class="card bg-dark">
                     <div class="card-body p-4">
 
                       <blockquote class="text-white blockquote"><span>&#8220</span>Lorem ipsum dolor sit amet
@@ -359,7 +368,7 @@
                 <div class="carousel-item ">
 
 
-                  <div class="card bg-success">
+                  <div class="card bg-dark">
                     <div class="card-body p-4">
 
                       <blockquote class="text-white blockquote"><span>&#8220</span> AdminGeekZ moved my sites with huge
@@ -448,7 +457,7 @@
               <input type="email" aria-label="First name" class="form-control border border-white bg-light lead"
                 placeholder="youname@email.com">
 
-              <button class="btn btn-primary btn-lg rounded-pill">Get in Touch</button>
+              <button class="btn btn-warning  btn-lg rounded-pill">Get in Touch</button>
             </div>
           </form>
         </div>
@@ -463,7 +472,7 @@
         <div class="col-sm-3"></div>
         <div class="col-12 col-sm-6 text-center">
           <div class="mb-5">
-            <a class="" href="#"><img src="./assets/img/logo.png" alt="Logo"></a>
+            <a class="" href="#"><img src="<%=require('./assets/img/logo-ag.jpg')%>" alt="Logo"></a>
           </div>
         </div>
 
