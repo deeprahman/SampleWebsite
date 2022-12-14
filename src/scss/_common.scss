@@ -1,0 +1,44 @@
+body {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .section-heading {
+    font-size: 1.2rem;
+    font-weight: 600;
+  
+  }
+  
+  .section-brief {
+    font-size: 1rem;
+    font-weight: 100;
+  }
+  
+  
+  .section-slogan {
+    font-size: 3.4rem;
+    font-weight: bold;
+  
+  }
+
+  .nav-link {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+}
+
+
+
+  .banner{
+        background-size: cover;
+        background-position: 90% 50%;
+        height: 400px;
+        background-attachment: fixed;
+  }

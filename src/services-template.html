@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        <%= htmlWebpackPlugin.options.title %>
+    </title>
+</head>
+
+<body>
+
+    <header>
+
+        <nav class="navbar fixed-top navbar-expand-lg  navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="./index.html">
+
+
+
+                    <img src='<%=require("./assets/img/logo-ag-sm.jpg")%>' alt="Logo">
+
+
+                </a>
+                <button class="navbar-toggler text-dark" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon text-dark"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <!-- <div class="mx-auto"></div> -->
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item"><a href="./index.html" class="nav-link link-dark">Home</a></li>
+                        <li class="nav-item dropdown " id="managemenr-service-dropdown">
+                            <a class="nav-link dropdown-toggle link-dark" href="#" data-bs-toggle="dropdown"
+                                data-bs-auto-close="outside">
+                                Management Services </a>
+                            <ul class="dropdown-menu">
+                                <li> <a class="dropdown-item" href="#"> Infrastructure Management</a></li>
+                                <li> <a class="dropdown-item" href="#"> Linux Server Management</a></li>
+                                <li> <a class="dropdown-item" href="#"> WordPress Management</a></li>
+                                <li> <a class="dropdown-item" href="#"> XenFro Management</a></li>
+                                <li> <a class="dropdown-item" href="#"> Magento Management</a></li>
+
+                                <li class="dropend"> <a class="dropdown-item dropdown-toggle" href="#"> Control Panel
+                                    </a>
+                                    <ul class="submenu dropdown-menu">
+                                        <li><a class="dropdown-item" href="#"> cPanel Server management </a></li>
+                                        <li><a class="dropdown-item" href="#"> Directadmin Server Management </a></li>
+                                        <li><a class="dropdown-item" href="#"> Plesk Server Management </a> </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown" id="cloud-services-dropdown">
+                            <a class="nav-link dropdown-toggle link-dark" data-bs-auto-close="outside" href="#"
+                                data-bs-toggle="dropdown">
+                                Cloud
+                                Services </a>
+                            <ul class="dropdown-menu">
+                                <li> <a class="dropdown-item" href="#"> Cloud Support </a></li>
+                                <li> <a class="dropdown-item" href="#"> Cloud Migration Support </a></li>
+                                <li> <a class="dropdown-item" href="#"> Cloud Cost Control </a></li>
+                                <li> <a class="dropdown-item" href="#"> AWS Management Service </a></li>
+                                <li> <a class="dropdown-item" href="#"> Google Cloud Management </a></li>
+                                <li> <a class="dropdown-item" href="#"> Digitalocean Management </a></li>
+                                <li> <a class="dropdown-item" href="#"> Vultr Management </a></li>
+                                <li> <a class="dropdown-item" href="#"> Lenode Management </a></li>
+
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown" id="support-services-dropdown">
+                            <a class="nav-link dropdown-toggle link-dark" data-bs-auto-close="outside" href="#"
+                                data-bs-toggle="dropdown">
+                                Support Services </a>
+                            <ul class="dropdown-menu">
+                                <li> <a class="dropdown-item" href="#"> Linux Security </a></li>
+                                <li> <a class="dropdown-item" href="#"> Backup Management </a></li>
+                                <li> <a class="dropdown-item" href="#"> Remote Devops </a></li>
+                                <li> <a class="dropdown-item" href="#"> Application Performance </a></li>
+                                <li> <a class="dropdown-item" href="#"> Project Management </a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a href="" class="nav-link link-dark">Enterprise</a></li>
+                        <li class="nav-item text-nowrap"><a href="" class="nav-link link-dark">About Us</a></li>
+
+                    </ul>
+
+
+                    <div class="ms-lg-1 gap-2 d-flex flex-column flex-lg-row align-items-start align-items-lg-center justify-content-start justify-content-lg-center text-nowrap"
+                        role="search">
+                        <div><a class="text-muted" href="">Sign In</a></div>
+                        <a class="btn btn-warning" href="./contact.html">Contact Us</a>
+                        </form>
+                    </div>
+                </div>
+        </nav>
+
+    </header>
+
+    <!-- banner section -->
+    <section id="services-banner" class="banner w-100 d-flex justify-content-center align-items-center">
+        <div class="content">
+
+
+
+        </div>
+
+    </section>
+    <main>
+        <div class="container my-5">
+            <h1 class="text-center">Placeholder for services</h1>
+            <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+
+            <div class="card" aria-hidden="true">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title placeholder-glow">
+                        <span class="placeholder col-6"></span>
+                    </h5>
+                    <p class="card-text placeholder-glow">
+                        <span class="placeholder col-7"></span>
+                        <span class="placeholder col-4"></span>
+                        <span class="placeholder col-4"></span>
+                        <span class="placeholder col-6"></span>
+                        <span class="placeholder col-8"></span>
+                    </p>
+                    <a href="#" tabindex="-1" class="btn btn-primary disabled placeholder col-6"></a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="bg-dark py-5">
+        <div class="container bg-dark ">
+            <div class="row">
+                <div class="col-sm-3"></div>
+                <div class="col-12 col-sm-6 text-center">
+                    <div class="mb-5">
+                        <a class="" href="#"><img src="<%=require('./assets/img/logo-ag.jpg')%>" alt="Logo"></a>
+                    </div>
+                </div>
+
+                <div class="col-sm-3"></div>
+            </div>
+
+            <div class="row">
+
+                <div id="footer-navigation"
+                    class=" d-flex flex-wrap  justify-content-center justify-content-md-between flex-md-row gap-3 align-items-start">
+
+                    <div class="d-flex flex-column align-items-start justify-content-start">
+                        <a class="lead text-white text-nowrap" href="#">
+                            Management Services
+                        </a>
+                        <ul class="list-unstyled text-start mt-1">
+                            <li class=""><a href="#" class="text-light text-nowrap text-decoration-none">Infrastructure
+                                    Management</a></li>
+                            <li class=""><a href="#" class="text-light text-nowrap text-decoration-none">Linux Server
+                                    Management</a>
+                            </li>
+                            <li class=""><a href="#" class="text-light text-nowrap text-decoration-none">WordPress
+                                    Management</a>
+                            </li>
+
+                            <li class=""><a href="#" class="text-light text-nowrap text-decoration-none">XenFro
+                                    Management</a>
+                            </li>
+                            <li class=""><a href="#" class="text-light text-nowrap text-decoration-none">Magento
+                                    Management</a>
+                            </li>
+                            <li class=""><a href="#" class="text-light text-nowrap text-decoration-none">cPanel Server
+                                    Management</a>
+                            </li>
+                            <li class=""><a href="#" class="text-light text-nowrap text-decoration-none">Direct Admin
+                                    Management</a>
+                            </li>
+                            <li class=""><a href="#" class="text-light text-nowrap text-decoration-none">Plesk Server
+                                    Management</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="d-flex flex-column align-items-start justify-content-start">
+                        <a class="lead text-white text-nowrap" href="#">
+
+                            Cloud Services
+                        </a>
+                        <ul class="list-unstyled text-start mt-1">
+                            <li class=""><a href="#" class="text-light text-nowrap text-decoration-none">Infrastructure
+                                    Management</a></li>
+                            <li class=""><a href="#" class="text-light text-nowrap text-decoration-none">Linux Server
+                                    Management</a>
+                            </li>
+                            <li class=""><a href="#" class="text-light text-nowrap text-decoration-none">WordPress
+                                    Management</a>
+                            </li>
+
+                            <li class=""><a href="#" class="text-light text-nowrap text-decoration-none">XenFro
+                                    Management</a>
+                            </li>
+                            <li class=""><a href="#" class="text-light text-nowrap text-decoration-none">Magento
+                                    Management</a>
+                            </li>
+                            <li class=""><a href="#" class="text-light text-nowrap text-decoration-none">cPanel Server
+                                    Management</a>
+                            </li>
+                            <li class=""><a href="#" class="text-light text-nowrap text-decoration-none">Direct Admin
+                                    Management</a>
+                            </li>
+                            <li class=""><a href="#" class="text-light text-nowrap text-decoration-none">Plesk Server
+                                    Management</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="d-flex flex-column align-items-start justify-content-start">
+                        <a class="lead text-white text-nowrap" href="#">
+
+
+                            Support Services
+                        </a>
+
+                        <ul class="list-unstyled text-start mt-1">
+                            <li class=""><a href="#" class="text-light text-nowrap text-decoration-none">Infrastructure
+                                    Management</a></li>
+                            <li class=""><a href="#" class="text-light text-nowrap text-decoration-none">Linux Server
+                                    Management</a>
+                            </li>
+                            <li class=""><a href="#" class="text-light text-nowrap text-decoration-none">WordPress
+                                    Management</a>
+                            </li>
+
+                            <li class=""><a href="#" class="text-light text-nowrap text-decoration-none">XenFro
+                                    Management</a>
+                            </li>
+                            <li class=""><a href="#" class="text-light text-nowrap text-decoration-none">Magento
+                                    Management</a>
+                            </li>
+                            <li class=""><a href="#" class="text-light text-nowrap text-decoration-none">cPanel Server
+                                    Management</a>
+                            </li>
+                            <li class=""><a href="#" class="text-light text-nowrap text-decoration-none">Direct Admin
+                                    Management</a>
+                            </li>
+                            <li class=""><a href="#" class="text-light text-nowrap text-decoration-none">Plesk Server
+                                    Management</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="d-flex flex-column align-items-start justify-content-start">
+
+                        <a class="lead text-white text-nowrap" href="#">
+                            Enterprise
+                        </a>
+                    </div>
+                    <div class="d-flex flex-column align-items-start justify-content-start">
+
+                        <a class="lead text-white text-nowrap" href="#">
+
+                            About Us
+                        </a>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="row text-white py-5">
+
+                <div class="col-12 col-sm-4 pb-3  p d-flex justify-content-center justify-content-sm-start gap-3">
+                    <i class="bi bi-facebook"></i>
+                    <i class="bi bi-twitter"></i>
+                    <i class="bi bi-youtube"></i>
+                    <i class="bi bi-linkedin"></i>
+
+                </div>
+
+                <div class="col-12 col-sm-4 d-flex gap-3 pb-3 justify-content-center">
+                    <a href="#" class="text-decoration-none text-light"><span class="text-uppercase">Privecy
+                            Policy</span></a>
+                    <a href="#" class="text-decoration-none text-light"><span class="text-uppercase">Terms of
+                            Services</span></a>
+                    <a href="#" class="text-decoration-none text-light"><span class="text-uppercase">Contact</span></a>
+                </div>
+                <div class="col-12 col-sm-4 d-flex justify-content-center justify-content-sm-end pb-3">
+                    <div>
+
+                        &copy;
+                        <span id="copyright-year">2023</span>
+                        Company Name
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

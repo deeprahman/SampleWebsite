@@ -43,6 +43,20 @@ module.exports = {
       filename: 'index.html', // output file
       inject:'body'
     }),
+    new HtmlWebpackPlugin({
+      title: 'Admin Geekz',
+      favicon: paths.src + '/assets/img/favicon.ico',
+      template: paths.src + '/contact-template.html', // template file
+      filename: 'contact.html', // output file
+      inject:'body'
+    }),
+    new HtmlWebpackPlugin({
+      title: 'Admin Geekz',
+      favicon: paths.src + '/assets/img/favicon.ico',
+      template: paths.src + '/services-template.html', // template file
+      filename: 'services.html', // output file
+      inject:'body'
+    }),
   ],
 
   // Determine how modules within the project are treated

@@ -1,0 +1,189 @@
+
+.image-container {
+    position: relative;
+    height: 564px;
+  
+  }
+  
+  .image-column {
+  
+    display: inline-block;
+  }
+  
+  
+  
+  .push-down {
+    position: absolute;
+    top: 2rem;
+  }
+  
+  .margin-top {
+    margin-top: 2rem;
+  }
+  
+  .margin-left {
+    margin-left: 2rem;
+  }
+ 
+  
+#welcome-banner {
+  background-image: linear-gradient(0deg, rgba(255, 255, 255, .6) 100%, rgba(255, 255, 255, 0) 0%), url("../assets/img/background.jpg");
+
+  height: 600px;
+
+}
+
+  .about-para-heading {
+    font-size: 30pt;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .about-para-hash {
+    font-size: 44pt;
+    line-height: 44px;
+    font-weight: bold;
+    padding-right: 1rem;
+    font-family: 'Poppins', sans-serif;
+    color: #9ec0c4;
+  }
+  
+  .about-slogan,
+  .os-slogan {
+    font-size: 3.4rem;
+    font-weight: bold;
+    margin-bottom: 4rem;
+  }
+  
+  
+  .os-heading {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 2.5rem;
+  }
+  
+  
+  .wcus-brief {
+    font-size: 1rem;
+    font-weight: 100;
+  }
+  
+  .about-btn>button,
+  #os-more>a {
+    font-size: 0.8rem;
+    padding: 1.2rem 4.5rem;
+    margin-top: 3rem;
+  }
+  
+  #why-choose-us {
+    background-image: linear-gradient(to bottom, #f7f7f7 75%, #0000 25%);
+  }
+  
+  #why-choose-us,
+  h3 {
+    font-size: 60px;
+    font-weight: bold;
+  }
+  
+  #why-choose-us,
+  h5 {
+    font-size: 18px;
+    font-weight: bold
+  }
+  
+  // .wcus-img-box {
+  //   height: 350px;
+  //   width: 330px;
+  
+  
+  //   background-image: linear-gradient(grey 50%, black);
+  // }
+  
+  // .wcus-img-label {
+  
+  //   border-radius: 5px;
+  //   padding: .25rem 2rem;
+  //   margin-bottom: 1rem;
+  //   background-color: black;
+  //   color: white;
+  // }
+  
+  // .wcus-img-label:hover {
+  //   background-color: $primary;
+  // }
+  
+  
+  
+  .wcus-logos {
+    background-image: linear-gradient(black, black);
+    background-size: cover;
+    width: 50px;
+    height: 46px;
+  }
+  
+  
+  
+  
+  
+  // Testimonial section
+  
+  @media screen and (min-width:991px) {
+    #testimonial {
+      background-image: linear-gradient(100deg, rgba(8, 48, 28, .8) 58.5%, rgba(255, 255, 255, 0) 38.5%),
+        url("../assets/img/testimonial-bg.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 800px;
+    }
+  }
+  
+  
+  #testimonial {
+  
+    background-color: black;
+  
+    .testi-brief {
+      font-size: 3.8rem;
+      font-weight: 600;
+    }
+  
+    .testi-client-img {
+      background-image: url("../assets/img/testimonial-pic.jpg");
+      background-size: cover;
+      height: 100px;
+      width: 100px;
+    }
+  
+    #testimonialCarousel {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+  
+    .carousel-control-next {
+      right: -60px;
+    }
+  
+    .carousel-control-prev {
+      left: -60px;
+    }
+  }
+  
+  
+  // subscribe section
+  
+  
+  .subscribers-form-background {
+    background-image: linear-gradient(white 50%, $dark 50%);
+     input{
+          box-shadow:none;
+          border:0px solid #F9F9F9!important;
+    }
+    input:focus{
+          box-shadow:none;
+          border:opx #F9F9F9!important;
+    }
+  }
+  
+  .subscribers-height {
+    height: 80px;
+  }
